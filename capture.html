@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>캡처용 프레임</title>
+<style>
+  html,body{margin:0;padding:0;background:#e9ebef}
+  #f{display:block;border:0;background:#fff;margin:0 auto}
+</style>
+</head>
+<body>
+<iframe id="f" src="./?c=1" title="capture"></iframe>
+<script>
+  (function(){
+    var p = new URLSearchParams(location.search);
+    var w = parseInt(p.get("w") || "390", 10);
+    var f = document.getElementById("f");
+    f.style.width = w + "px";
+    function fit(){ try{ f.style.height = f.contentDocument.documentElement.scrollHeight + "px"; }catch(e){ f.style.height = "8000px"; } }
+    f.addEventListener("load", function(){ fit(); setTimeout(fit, 800); setTimeout(fit, 2000); });
+    setTimeout(fit, 3000);
+  })();
+</script>
+</body>
+</html>
