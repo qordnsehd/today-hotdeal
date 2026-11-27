@@ -362,7 +362,7 @@
     </div>
     <small>
       표시된 가격·재고·배송 조건은 확인 시점 기준이며, 판매처 사정에 따라 달라질 수 있습니다. 구매 전 판매 페이지에서 최종 가격을 확인해 주세요.<br>
-      토스쇼핑 상품은 웹에 가격이 노출되지 않아 등록가로 표기했으며, 앱에서 최종 가격을 확인할 수 있습니다.<br>
+      토스쇼핑 상품은 웹에 가격이 노출되지 않습니다. 확인된 등록가는 그대로 표기하고, 확인할 수 없는 상품은 '가격은 토스 앱에서'로 표시하며 앱에서 최종 가격을 볼 수 있습니다.<br>
       상품 이미지는 각 판매처가 제공하는 공식 이미지입니다.<br>
       © 오늘의 핫딜 · 드림이의 특가 편집샵
     </small>
@@ -444,6 +444,9 @@
   }
 
   function priceHTML(item){
+    if (item.price == null) {
+      return '<div class="prices"><span class="now" style="font-size:14.5px">가격은 토스 앱에서</span></div>';
+    }
     var parts = [];
     if (item.off) parts.push('<span class="off num">' + item.off + '%</span>');
     parts.push('<span class="now num">' + won(item.price) + '<span>원</span></span>');
@@ -510,9 +513,11 @@
         "<h2>" + esc(sp.headline || item.title) + "</h2>" +
         '<p class="desc">' + esc(item.title) + " — " + esc(item.desc || "") + "</p>" +
         '<div class="spot-price">' +
-          (item.off ? '<span class="off num">' + item.off + "%</span>" : "") +
-          '<span class="now num">' + won(item.price) + "<span>원</span></span>" +
-          (item.originalPrice ? '<s class="num">' + won(item.originalPrice) + "원</s>" : "") +
+          (item.price == null
+            ? '<span class="now" style="font-size:20px">가격은 토스 앱에서</span>'
+            : (item.off ? '<span class="off num">' + item.off + "%</span>" : "") +
+              '<span class="now num">' + won(item.price) + "<span>원</span></span>" +
+              (item.originalPrice ? '<s class="num">' + won(item.originalPrice) + "원</s>" : "")) +
         "</div>" +
         '<p class="desc" style="color:#6b7280;font-size:12.5px">' + esc(sp.sub || item.priceNote || "") + "</p>" +
         (bullets ? '<ul class="spot-bullets">' + bullets + "</ul>" : "") +
