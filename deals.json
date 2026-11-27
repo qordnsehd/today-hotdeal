@@ -11,12 +11,30 @@
       "priceNote": "선물세트 쇼핑백 M · 쿠팡 단품은 9만 원대",
       "image": "images/massager.jpg",
       "desc": "38도 온열 · 주무름/두드림/반복 3가지 모드 · 무선 2,500mAh · 안마볼 3개",
-      "meta": ["리뷰 4,100+", "KC 인증", "연말 선물용"],
-      "links": [
-        { "label": "네이버에서 보기", "url": "https://naver.me/5Net2mb8", "primary": true },
-        { "label": "쿠팡 최저가 보기", "url": "https://link.coupang.com/a/i0LaiG7RJY" }
+      "meta": [
+        "리뷰 4,100+",
+        "KC 인증",
+        "연말 선물용"
       ],
-      "tags": ["마사지기", "어깨", "목", "선물", "연말", "부모님"]
+      "links": [
+        {
+          "label": "네이버에서 보기",
+          "url": "https://naver.me/5Net2mb8",
+          "primary": true
+        },
+        {
+          "label": "쿠팡 최저가 보기",
+          "url": "https://link.coupang.com/a/i0LaiG7RJY"
+        }
+      ],
+      "tags": [
+        "마사지기",
+        "어깨",
+        "목",
+        "선물",
+        "연말",
+        "부모님"
+      ]
     },
     {
       "id": "panasonic-er-gn30",
@@ -27,11 +45,25 @@
       "priceNote": "웰컴백 쿠폰 적용 시 15,050원 (2일 남음)",
       "image": "images/panasonic.jpg",
       "desc": "물 세척 가능 · 듀얼 엣지 블레이드 · 코·귀·눈썹 겸용 · 건전지형",
-      "meta": ["리뷰 16,114", "무료배송", "내일 도착"],
-      "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9YV4Uxsy", "primary": true }
+      "meta": [
+        "리뷰 16,114",
+        "무료배송",
+        "내일 도착"
       ],
-      "tags": ["코털", "면도", "그루밍", "남자", "가성비"]
+      "links": [
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9YV4Uxsy",
+          "primary": true
+        }
+      ],
+      "tags": [
+        "코털",
+        "면도",
+        "그루밍",
+        "남자",
+        "가성비"
+      ]
     },
     {
       "id": "phytomes-toner",
@@ -41,11 +73,25 @@
       "priceNote": "정가 28,000원 → 11% 할인 · 쿠폰 적용 시 22,700원",
       "image": "images/toner.jpg",
       "desc": "남성 피지·모공 케어 토너 · 약산성 · 모든 피부용",
-      "meta": ["리뷰 507", "평점 4.77", "배송비 3,000원(4만 원 이상 무료)"],
-      "links": [
-        { "label": "네이버 스마트스토어에서 보기", "url": "https://naver.me/FORUzgDR", "primary": true }
+      "meta": [
+        "리뷰 507",
+        "평점 4.77",
+        "배송비 3,000원(4만 원 이상 무료)"
       ],
-      "tags": ["토너", "스킨", "모공", "남자화장품", "피토메스"]
+      "links": [
+        {
+          "label": "네이버에서 보기",
+          "url": "https://naver.me/FORUzgDR",
+          "primary": true
+        }
+      ],
+      "tags": [
+        "토너",
+        "스킨",
+        "모공",
+        "남자화장품",
+        "피토메스"
+      ]
     },
     {
       "id": "livingdog-slipper",
@@ -55,11 +101,25 @@
       "priceNote": "웰컴백 쿠폰 적용 시 14,600원 (2일 남음)",
       "image": "images/slipper.jpg",
       "desc": "안감 전체 인조 털 · 도톰한 쿠션창 · 미끄럼 방지 · 230~270mm",
-      "meta": ["리뷰 310", "만족도 91%", "무료배송 · 내일 도착"],
-      "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9V34qM56", "primary": true }
+      "meta": [
+        "리뷰 310",
+        "만족도 91%",
+        "무료배송 · 내일 도착"
       ],
-      "tags": ["슬리퍼", "털실내화", "겨울", "방한", "집콕"]
+      "links": [
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9V34qM56",
+          "primary": true
+        }
+      ],
+      "tags": [
+        "슬리퍼",
+        "털실내화",
+        "겨울",
+        "방한",
+        "집콕"
+      ]
     },
     {
       "id": "raser-balaclava",
@@ -69,11 +129,25 @@
       "priceNote": "판매처 표시가 · 쿠폰·이벤트에 따라 달라질 수 있어요",
       "image": "images/balaclava.jpg",
       "desc": "폴리에스터 90% + 스판덱스 10% · 기모 안감 · 36×32cm 프리사이즈",
-      "meta": ["리뷰 1,911", "한 달 5,000명 이상 구매", "무료배송 · 내일 도착"],
-      "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9XaK7Zeu", "primary": true }
+      "meta": [
+        "리뷰 1,911",
+        "한 달 5,000명 이상 구매",
+        "무료배송 · 내일 도착"
       ],
-      "tags": ["바라클라바", "넥워머", "라이딩", "스키", "방한"]
+      "links": [
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9XaK7Zeu",
+          "primary": true
+        }
+      ],
+      "tags": [
+        "바라클라바",
+        "넥워머",
+        "라이딩",
+        "스키",
+        "방한"
+      ]
     },
     {
       "id": "toss-today",
@@ -81,15 +155,29 @@
       "category": "토스 특가",
       "badge": "매일 갱신",
       "price": null,
-      "priceNote": "가격은 토스쇼핑에서 바로 확인할 수 있어요",
+      "priceNote": "매일 오전에 새 특가로 바뀌어요",
       "image": null,
-      "placeholder": { "emoji": "🛍️", "text": "TOSS SHOPPING" },
+      "placeholder": {
+        "emoji": "🛍️",
+        "text": "TOSS SHOPPING"
+      },
       "desc": "토스쇼핑에서 오늘만 낮춘 특가 상품을 모아 둔 페이지예요. 하루 단위로 바뀝니다.",
-      "meta": ["매일 갱신", "토스 쉐어링크"],
-      "links": [
-        { "label": "오늘의 특가 보기", "url": "https://toss.shopping/_m/LV7r4hYx", "primary": true }
+      "meta": [
+        "매일 갱신",
+        "토스 쉐어링크"
       ],
-      "tags": ["토스", "특가", "오늘의딜"]
+      "links": [
+        {
+          "label": "오늘의 특가 보기",
+          "url": "https://toss.shopping/_m/LV7r4hYx",
+          "primary": true
+        }
+      ],
+      "tags": [
+        "토스",
+        "특가",
+        "오늘의딜"
+      ]
     }
   ]
 }
