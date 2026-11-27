@@ -9,13 +9,15 @@
 </style>
 </head>
 <body>
-<iframe id="f" src="./?c=1" title="capture"></iframe>
+<iframe id="f" title="capture"></iframe>
 <script>
   (function(){
     var p = new URLSearchParams(location.search);
     var w = parseInt(p.get("w") || "390", 10);
     var f = document.getElementById("f");
+    function load(){ f.src = "./?c=" + Date.now(); }
     f.style.width = w + "px";
+    load();
     function fit(){ try{ f.style.height = f.contentDocument.documentElement.scrollHeight + "px"; }catch(e){ f.style.height = "8000px"; } }
     f.addEventListener("load", function(){ fit(); setTimeout(fit, 800); setTimeout(fit, 2000); });
     setTimeout(fit, 3000);
