@@ -227,7 +227,7 @@
   .off{font-size:15px; font-weight:900; color:var(--accent); letter-spacing:-.02em}
   .now{font-size:19px; font-weight:900; letter-spacing:-.03em}
   .now span{font-size:12.5px; font-weight:800; margin-left:1px}
-  .prices s{font-size:11.5px; color:#a9aeb8}
+  .prices s{font-size:11.5px; color:#8f96a1; text-decoration-thickness:1px}
   .pnote{margin:1px 0 0; font-size:11.5px; color:#8a6a2f; background:#fffaf0; border-radius:7px; padding:4px 7px; line-height:1.45}
   .shiprow{display:flex; flex-wrap:wrap; gap:4px; margin-top:1px}
   .chipmini{font-size:11px; font-weight:800; color:#4b5563; background:var(--soft); border-radius:6px; padding:3px 7px}
@@ -238,7 +238,7 @@
   .cta a{
     display:flex; align-items:center; justify-content:center; gap:6px; padding:11px 10px;
     border-radius:11px; font-size:13px; font-weight:900; background:var(--point); color:#fff;
-    transition:background .14s ease;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:background .14s ease;
   }
   .cta a.line{background:#fff; color:var(--point); border:1px solid #dfe3e9}
   @media (hover:hover){ .cta a:hover{background:#2a2d34} .cta a.line:hover{background:var(--soft)} }
@@ -389,6 +389,13 @@
   function won(n){ return Number(n).toLocaleString("ko-KR"); }
   function attrs(){ return ' target="_blank" rel="noopener noreferrer sponsored"'; }
   function primary(item){ return (item.links && item.links[0]) || { url: "#", label: "보러 가기" }; }
+  function shortLabel(item){
+    var st = item.store || "";
+    if (st.indexOf("쿠팡") === 0) return "쿠팡에서 보기";
+    if (st.indexOf("토스") === 0) return "토스쇼핑에서 보기";
+    if (st.indexOf("네이버") === 0) return "네이버에서 보기";
+    return "구매처에서 보기";
+  }
 
   var toastTimer;
   function toast(msg){
@@ -476,7 +483,7 @@
         priceHTML(item) +
         (item.priceNote ? '<p class="pnote">' + esc(item.priceNote) + "</p>" : "") +
         (shipChips ? '<div class="shiprow">' + shipChips + "</div>" : "") +
-        '<div class="cta"><a href="' + esc(main.url) + '"' + attrs() + ">" + esc(main.label) + " →</a></div>" +
+        '<div class="cta"><a href="' + esc(main.url) + '"' + attrs() + ">" + esc(shortLabel(item)) + " →</a></div>" +
       "</div></article>";
   }
 

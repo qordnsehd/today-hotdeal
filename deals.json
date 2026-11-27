@@ -7,7 +7,13 @@
     "role": "오늘의 특가 큐레이터",
     "avatar": "images/dream_mascot.jpg"
   },
-  "categories": ["전체", "생활·가전", "겨울·방한", "뷰티·케어", "토스 특가"],
+  "categories": [
+    "전체",
+    "생활·가전",
+    "겨울·방한",
+    "뷰티·케어",
+    "토스 특가"
+  ],
   "spotlight": {
     "id": "pulio-v3-gift",
     "kicker": "MD PICK 1위",
@@ -28,15 +34,29 @@
       "off": null,
       "rating": null,
       "reviews": "4,100+",
-      "priceNote": "선물세트(쇼핑백 M) 구성 · 쿠팡 단품은 9만 원대",
+      "priceNote": "선물세트(쇼핑백 M) 구성 · 쿠팡 단품 9만 원대",
       "desc": "38도 온열 · 주무름/두드림/반복 3가지 모드 · 무선 2,500mAh · 안마볼 3개",
       "ship": "연말 선물용 · 브랜드 공식 보증",
       "image": "images/massager.jpg",
       "links": [
-        { "label": "네이버 공식스토어에서 보기", "url": "https://naver.me/5Net2mb8", "primary": true },
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/i0LaiG7RJY" }
+        {
+          "label": "네이버 공식스토어에서 보기",
+          "url": "https://naver.me/5Net2mb8",
+          "primary": true
+        },
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/i0LaiG7RJY"
+        }
       ],
-      "tags": ["마사지기", "어깨", "목", "선물", "연말", "부모님"]
+      "tags": [
+        "마사지기",
+        "어깨",
+        "목",
+        "선물",
+        "연말",
+        "부모님"
+      ]
     },
     {
       "id": "partition-heater",
@@ -51,14 +71,24 @@
       "off": 91,
       "rating": null,
       "reviews": "1,308",
-      "priceNote": "일반할인가 기준 · 쿠폰 적용에 따라 달라질 수 있어요",
+      "priceNote": "일반할인가 · 쿠폰에 따라 변동",
       "desc": "3단 접이식 파티션 · 책상 밑 발난로 · 손/발 겸용 온열",
       "ship": "무료배송 · 내일 도착",
       "image": "images/partition-heater.jpg",
       "links": [
-        { "label": "쿠팡에서 11,900원에 보기", "url": "https://link.coupang.com/a/iS1Ay7Iyiq", "primary": true }
+        {
+          "label": "쿠팡에서 11,900원에 보기",
+          "url": "https://link.coupang.com/a/iS1Ay7Iyiq",
+          "primary": true
+        }
       ],
-      "tags": ["파티션히터", "발난로", "사무실", "겨울", "온열"]
+      "tags": [
+        "파티션히터",
+        "발난로",
+        "사무실",
+        "겨울",
+        "온열"
+      ]
     },
     {
       "id": "blanket",
@@ -78,9 +108,19 @@
       "ship": "무료배송 · 내일 도착",
       "image": "images/blanket.jpg",
       "links": [
-        { "label": "쿠팡에서 5,200원에 보기", "url": "https://link.coupang.com/a/iTBETNkzT2", "primary": true }
+        {
+          "label": "쿠팡에서 5,200원에 보기",
+          "url": "https://link.coupang.com/a/iTBETNkzT2",
+          "primary": true
+        }
       ],
-      "tags": ["담요", "극세사", "무릎담요", "사무실", "겨울"]
+      "tags": [
+        "담요",
+        "극세사",
+        "무릎담요",
+        "사무실",
+        "겨울"
+      ]
     },
     {
       "id": "hotpack",
@@ -95,14 +135,24 @@
       "off": 90,
       "rating": null,
       "reviews": "17,435",
-      "priceNote": "1개당 100원 · 일반할인가 기준",
+      "priceNote": "1개당 100원 · 일반할인가",
       "desc": "180g 대형 포켓형 · 17시간 발열 · 한 달 6,000명 이상 구매",
       "ship": "무료배송 · 내일 도착",
       "image": "images/hotpack.jpg",
       "links": [
-        { "label": "쿠팡에서 5,000원에 보기", "url": "https://link.coupang.com/a/iTBJQQsDNk", "primary": true }
+        {
+          "label": "쿠팡에서 5,000원에 보기",
+          "url": "https://link.coupang.com/a/iTBJQQsDNk",
+          "primary": true
+        }
       ],
-      "tags": ["핫팩", "손난로", "대용량", "군용", "겨울"]
+      "tags": [
+        "핫팩",
+        "손난로",
+        "대용량",
+        "군용",
+        "겨울"
+      ]
     },
     {
       "id": "albaam",
@@ -117,14 +167,24 @@
       "off": 73,
       "rating": null,
       "reviews": "1,440",
-      "priceNote": "웰컴백 쿠폰가 · C타입 케이블 세트 구성",
+      "priceNote": "웰컴백 쿠폰가 · C타입 케이블 포함",
       "desc": "손난로 + 보조배터리 2in1 · 3단 온도 · 5,000mAh급 충전",
       "ship": "무료배송 · 내일 도착",
       "image": "images/albaam.jpg",
       "links": [
-        { "label": "쿠팡에서 22,900원에 보기", "url": "https://link.coupang.com/a/iSS9nStNo4", "primary": true }
+        {
+          "label": "쿠팡에서 22,900원에 보기",
+          "url": "https://link.coupang.com/a/iSS9nStNo4",
+          "primary": true
+        }
       ],
-      "tags": ["손난로", "보조배터리", "알밤", "겨울", "캠핑"]
+      "tags": [
+        "손난로",
+        "보조배터리",
+        "알밤",
+        "겨울",
+        "캠핑"
+      ]
     },
     {
       "id": "mini-heater",
@@ -139,14 +199,24 @@
       "off": null,
       "rating": null,
       "reviews": "1,721",
-      "priceNote": "웰컴백 쿠폰가 · 2일 남음 · 500W 저전력",
+      "priceNote": "웰컴백 쿠폰가 · 500W 저전력",
       "desc": "PTC 세라믹 히터 · 책상 위·발밑 겸용 · 무소음 취침 모드",
       "ship": "무료배송 · 내일 도착",
       "image": "images/mini-heater.jpg",
       "links": [
-        { "label": "쿠팡에서 17,500원에 보기", "url": "https://link.coupang.com/a/iS1CSS9sCy", "primary": true }
+        {
+          "label": "쿠팡에서 17,500원에 보기",
+          "url": "https://link.coupang.com/a/iS1CSS9sCy",
+          "primary": true
+        }
       ],
-      "tags": ["온풍기", "미니히터", "사무실", "책상", "겨울"]
+      "tags": [
+        "온풍기",
+        "미니히터",
+        "사무실",
+        "책상",
+        "겨울"
+      ]
     },
     {
       "id": "mugwarmer",
@@ -166,9 +236,19 @@
       "ship": "무료배송 · 내일 도착",
       "image": "images/mugwarmer.jpg",
       "links": [
-        { "label": "쿠팡에서 36,800원에 보기", "url": "https://link.coupang.com/a/iS1Bj6MT0K", "primary": true }
+        {
+          "label": "쿠팡에서 36,800원에 보기",
+          "url": "https://link.coupang.com/a/iS1Bj6MT0K",
+          "primary": true
+        }
       ],
-      "tags": ["머그워머", "컵워머", "사무실", "보온", "커피"]
+      "tags": [
+        "머그워머",
+        "컵워머",
+        "사무실",
+        "보온",
+        "커피"
+      ]
     },
     {
       "id": "kimchi-container",
@@ -183,14 +263,24 @@
       "off": 71,
       "rating": null,
       "reviews": "467",
-      "priceNote": "일반할인가 기준 · 김장철 2개 구성",
+      "priceNote": "일반할인가 · 김장철 2개 구성",
       "desc": "12L 대용량 · 밀폐 투핸들 · 김장·재료 보관용",
       "ship": "무료배송 · 12/1 도착 예정",
       "image": "images/kimchi.jpg",
       "links": [
-        { "label": "쿠팡에서 12,000원에 보기", "url": "https://link.coupang.com/a/iTBGR8aTRc", "primary": true }
+        {
+          "label": "쿠팡에서 12,000원에 보기",
+          "url": "https://link.coupang.com/a/iTBGR8aTRc",
+          "primary": true
+        }
       ],
-      "tags": ["김치통", "김장", "밀폐용기", "락앤락", "주방"]
+      "tags": [
+        "김치통",
+        "김장",
+        "밀폐용기",
+        "락앤락",
+        "주방"
+      ]
     },
     {
       "id": "livingdog-slipper",
@@ -205,14 +295,24 @@
       "off": null,
       "rating": null,
       "reviews": "310",
-      "priceNote": "웰컴백 쿠폰 적용 시 14,600원 (2일 남음)",
+      "priceNote": "쿠폰 적용 시 14,600원 (2일 남음)",
       "desc": "안감 전체 인조 털 · 도톰한 쿠션창 · 미끄럼 방지 · 230~270mm",
       "ship": "무료배송 · 내일 도착",
       "image": "images/slipper.jpg",
       "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9V34qM56", "primary": true }
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9V34qM56",
+          "primary": true
+        }
       ],
-      "tags": ["슬리퍼", "털실내화", "겨울", "방한", "집콕"]
+      "tags": [
+        "슬리퍼",
+        "털실내화",
+        "겨울",
+        "방한",
+        "집콕"
+      ]
     },
     {
       "id": "raser-balaclava",
@@ -227,14 +327,24 @@
       "off": null,
       "rating": null,
       "reviews": "1,911",
-      "priceNote": "판매처 표시가 · 쿠폰·이벤트에 따라 달라질 수 있어요",
+      "priceNote": "판매처 표시가 · 쿠폰에 따라 변동",
       "desc": "폴리에스터 90% + 스판덱스 10% · 기모 안감 · 36×32cm 프리사이즈",
       "ship": "무료배송 · 내일 도착",
       "image": "images/balaclava.jpg",
       "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9XaK7Zeu", "primary": true }
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9XaK7Zeu",
+          "primary": true
+        }
       ],
-      "tags": ["바라클라바", "넥워머", "라이딩", "스키", "방한"]
+      "tags": [
+        "바라클라바",
+        "넥워머",
+        "라이딩",
+        "스키",
+        "방한"
+      ]
     },
     {
       "id": "disenne-carbonmat",
@@ -249,14 +359,24 @@
       "off": 50,
       "rating": 4.86,
       "reviews": "1,079",
-      "priceNote": "최대할인가(쿠폰 적용) · 쿠폰은 오늘까지",
+      "priceNote": "최대할인가(쿠폰) · 쿠폰은 오늘까지",
       "desc": "전자파 없는 카본 탄소매트 · 5단 온도조절 · 국산 · 방수 누빔",
       "ship": "무료배송 · 평균 2일 이내 도착",
       "image": "images/carbonmat.jpg",
       "links": [
-        { "label": "네이버에서 95,700원에 보기", "url": "https://naver.me/FHOW0aKu", "primary": true }
+        {
+          "label": "네이버에서 95,700원에 보기",
+          "url": "https://naver.me/FHOW0aKu",
+          "primary": true
+        }
       ],
-      "tags": ["탄소매트", "전기매트", "온열매트", "겨울", "전자파"]
+      "tags": [
+        "탄소매트",
+        "전기매트",
+        "온열매트",
+        "겨울",
+        "전자파"
+      ]
     },
     {
       "id": "wlab-multibalm",
@@ -271,14 +391,24 @@
       "off": 62,
       "rating": 4.75,
       "reviews": "561",
-      "priceNote": "최대할인가 · 배송비 3,000원(5만 원 이상 무료)",
+      "priceNote": "최대할인가 · 5만 원 이상 무료배송",
       "desc": "스틱 타입 세럼 밤 · 눈가·입가·목 보습 · 휴대용 10ml 2개",
       "ship": "네이버 내일배송",
       "image": "images/multibalm.jpg",
       "links": [
-        { "label": "네이버에서 18,800원에 보기", "url": "https://naver.me/FNtcJ6v2", "primary": true }
+        {
+          "label": "네이버에서 18,800원에 보기",
+          "url": "https://naver.me/FNtcJ6v2",
+          "primary": true
+        }
       ],
-      "tags": ["멀티밤", "세럼밤", "보습", "더블유랩", "1+1"]
+      "tags": [
+        "멀티밤",
+        "세럼밤",
+        "보습",
+        "더블유랩",
+        "1+1"
+      ]
     },
     {
       "id": "modubom-haircolor",
@@ -293,14 +423,24 @@
       "off": 29,
       "rating": 4.55,
       "reviews": "9,681",
-      "priceNote": "멤버십 쿠폰가 · 쿠폰 2일 남음",
+      "priceNote": "멤버십 쿠폰가 · 2일 남음",
       "desc": "브러시형 새치 커버 · 정수리·옆머리 쓱쓱 · 무료배송",
       "ship": "무료배송 · 내일 도착",
       "image": "images/haircolor.jpg",
       "links": [
-        { "label": "네이버에서 14,900원에 보기", "url": "https://naver.me/x3cneIms", "primary": true }
+        {
+          "label": "네이버에서 14,900원에 보기",
+          "url": "https://naver.me/x3cneIms",
+          "primary": true
+        }
       ],
-      "tags": ["새치커버", "헤어틴트", "흰머리", "헤어마스카라", "부모님"]
+      "tags": [
+        "새치커버",
+        "헤어틴트",
+        "흰머리",
+        "헤어마스카라",
+        "부모님"
+      ]
     },
     {
       "id": "panasonic-er-gn30",
@@ -315,14 +455,24 @@
       "off": null,
       "rating": null,
       "reviews": "16,114",
-      "priceNote": "웰컴백 쿠폰 적용 시 15,050원 (2일 남음)",
+      "priceNote": "쿠폰 적용 시 15,050원 (2일 남음)",
       "desc": "물 세척 가능 · 듀얼 엣지 블레이드 · 코·귀·눈썹 겸용 · 건전지형",
       "ship": "무료배송 · 내일 도착",
       "image": "images/panasonic.jpg",
       "links": [
-        { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/iY9YV4Uxsy", "primary": true }
+        {
+          "label": "쿠팡에서 보기",
+          "url": "https://link.coupang.com/a/iY9YV4Uxsy",
+          "primary": true
+        }
       ],
-      "tags": ["코털", "면도", "그루밍", "가성비", "파나소닉"]
+      "tags": [
+        "코털",
+        "면도",
+        "그루밍",
+        "가성비",
+        "파나소닉"
+      ]
     },
     {
       "id": "phytomes-toner",
@@ -337,14 +487,24 @@
       "off": 11,
       "rating": 4.77,
       "reviews": "507",
-      "priceNote": "쿠폰 적용 시 22,700원 · 배송비 3,000원(4만 원 이상 무료)",
+      "priceNote": "쿠폰 적용 시 22,700원 · 4만 원 이상 무료배송",
       "desc": "피지·모공을 산뜻하게 잡아주는 약산성 데일리 토너 · 모든 피부용",
       "ship": "데일리 스킨케어",
       "image": "images/toner.jpg",
       "links": [
-        { "label": "네이버에서 보기", "url": "https://naver.me/FORUzgDR", "primary": true }
+        {
+          "label": "네이버에서 보기",
+          "url": "https://naver.me/FORUzgDR",
+          "primary": true
+        }
       ],
-      "tags": ["토너", "스킨", "모공", "약산성", "피토메스"]
+      "tags": [
+        "토너",
+        "스킨",
+        "모공",
+        "약산성",
+        "피토메스"
+      ]
     },
     {
       "id": "toss-water",
@@ -359,14 +519,23 @@
       "off": null,
       "rating": 4.8,
       "reviews": "74,864",
-      "priceNote": "11/23 토스쇼핑 등록가 · 앱에서 최종 확인",
+      "priceNote": "11/23 등록가 · 앱에서 확인",
       "desc": "무라벨 500ml 40병 · 1병당 약 157원 · 집앞 배송",
       "ship": "토스쇼핑 앱 특가",
       "image": "images/toss_water.jpg",
       "links": [
-        { "label": "토스쇼핑에서 보기", "url": "https://toss.shopping/_m/tl2k5rdD", "primary": true }
+        {
+          "label": "토스쇼핑에서 보기",
+          "url": "https://toss.shopping/_m/tl2k5rdD",
+          "primary": true
+        }
       ],
-      "tags": ["생수", "무라벨", "생필품", "토스"]
+      "tags": [
+        "생수",
+        "무라벨",
+        "생필품",
+        "토스"
+      ]
     },
     {
       "id": "toss-tissue",
@@ -381,14 +550,23 @@
       "off": null,
       "rating": null,
       "reviews": null,
-      "priceNote": "11/23 토스쇼핑 등록가 · 앱에서 최종 확인",
+      "priceNote": "11/23 등록가 · 앱에서 확인",
       "desc": "3겹 도톰한 화장지 30롤 2팩 · 총 60롤 대용량",
       "ship": "토스쇼핑 앱 특가",
       "image": "images/toss_tissue.jpg",
       "links": [
-        { "label": "토스쇼핑에서 보기", "url": "https://toss.shopping/_m/RF8MPYmg", "primary": true }
+        {
+          "label": "토스쇼핑에서 보기",
+          "url": "https://toss.shopping/_m/RF8MPYmg",
+          "primary": true
+        }
       ],
-      "tags": ["화장지", "두루마리", "생필품", "토스"]
+      "tags": [
+        "화장지",
+        "두루마리",
+        "생필품",
+        "토스"
+      ]
     },
     {
       "id": "toss-lotion",
@@ -403,14 +581,23 @@
       "off": null,
       "rating": null,
       "reviews": null,
-      "priceNote": "11/23 토스쇼핑 등록가 · 앱에서 최종 확인",
+      "priceNote": "11/23 등록가 · 앱에서 확인",
       "desc": "바세린 고보습 바디로션 1L 2개 · 겨울 건조 피부용",
       "ship": "토스쇼핑 앱 특가",
       "image": "images/toss_lotion.jpg",
       "links": [
-        { "label": "토스쇼핑에서 보기", "url": "https://toss.shopping/_m/He5whZJq", "primary": true }
+        {
+          "label": "토스쇼핑에서 보기",
+          "url": "https://toss.shopping/_m/He5whZJq",
+          "primary": true
+        }
       ],
-      "tags": ["바디로션", "보습", "생필품", "토스"]
+      "tags": [
+        "바디로션",
+        "보습",
+        "생필품",
+        "토스"
+      ]
     },
     {
       "id": "toss-tangerine",
@@ -425,14 +612,24 @@
       "off": null,
       "rating": null,
       "reviews": null,
-      "priceNote": "11/23 토스쇼핑 등록가 · 앱에서 최종 확인",
+      "priceNote": "11/23 등록가 · 앱에서 확인",
       "desc": "노지 조생 감귤 10kg 박스 · 1kg당 약 1,056원",
       "ship": "산지직송 · 토스쇼핑 앱 특가",
       "image": "images/toss_tangerine.jpg",
       "links": [
-        { "label": "토스쇼핑에서 보기", "url": "https://toss.shopping/_m/VRRhPUYB", "primary": true }
+        {
+          "label": "토스쇼핑에서 보기",
+          "url": "https://toss.shopping/_m/VRRhPUYB",
+          "primary": true
+        }
       ],
-      "tags": ["감귤", "제주", "과일", "특가", "토스"]
+      "tags": [
+        "감귤",
+        "제주",
+        "과일",
+        "특가",
+        "토스"
+      ]
     },
     {
       "id": "toss-bagel",
@@ -447,14 +644,24 @@
       "off": 65,
       "rating": null,
       "reviews": null,
-      "priceNote": "11/23 토스쇼핑 등록가 · 앱에서 최종 확인",
+      "priceNote": "11/23 등록가 · 앱에서 확인",
       "desc": "단백질 베이글 10개입 · 아침 대용 · 개당 960원",
       "ship": "토스쇼핑 앱 특가",
       "image": "images/toss_bagel.jpg",
       "links": [
-        { "label": "토스쇼핑에서 보기", "url": "https://toss.shopping/_m/B3NGh7k1", "primary": true }
+        {
+          "label": "토스쇼핑에서 보기",
+          "url": "https://toss.shopping/_m/B3NGh7k1",
+          "primary": true
+        }
       ],
-      "tags": ["베이글", "고단백", "아침", "간편식", "토스"]
+      "tags": [
+        "베이글",
+        "고단백",
+        "아침",
+        "간편식",
+        "토스"
+      ]
     }
   ],
   "notes": [
