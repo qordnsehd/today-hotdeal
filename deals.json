@@ -12,7 +12,7 @@
     "id": "pulio-v3-gift",
     "kicker": "MD PICK 1위",
     "headline": "연말 선물 고민 끝, 38도 온열 두드림 마사지기",
-    "sub": "선물세트 구성 그대로 159,000원 · 브랜드 공식 스토어 최저가"
+    "sub": "선물세트 구성 그대로 159,000원 · 브랜드 공식 스토어 판매가"
   },
   "items": [
     {
@@ -33,7 +33,7 @@
       "ship": "연말 선물용 · 브랜드 공식 보증",
       "image": "images/massager.jpg",
       "links": [
-        { "label": "네이버에서 최저가 보기", "url": "https://naver.me/5Net2mb8", "primary": true },
+        { "label": "네이버 공식스토어에서 보기", "url": "https://naver.me/5Net2mb8", "primary": true },
         { "label": "쿠팡에서 보기", "url": "https://link.coupang.com/a/i0LaiG7RJY" }
       ],
       "tags": ["마사지기", "어깨", "목", "선물", "연말", "부모님"]

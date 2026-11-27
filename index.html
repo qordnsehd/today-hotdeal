@@ -444,7 +444,6 @@
       var cls = /특가|OFF|할인|%/.test(item.badge) ? "hot" : (item.badge === "무료배송" ? "free" : "");
       badges.push('<span class="tbadge ' + cls + '">' + esc(item.badge) + "</span>");
     }
-    if (item.ship && /무료배송/.test(item.ship)) badges.push('<span class="tbadge free">무료배송</span>');
 
     var shipChips = String(item.ship || "").split(/·|,/).map(function(s){ return s.trim(); })
       .filter(Boolean).slice(0,2).map(function(s){
